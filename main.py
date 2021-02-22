@@ -18,6 +18,7 @@ def mainFunction():
     print("Dobar dan svimaa pomoci cemo vam u vasoj optimalnoj dekoraciji kuce ukrasima")
     budzet=int(input("Unesite vas budzet \n"));
     vaznost=[];
+    cen=2
     for x in predmeti:
        vaznost.append(int(input("Na skali od 1-20 nam kazite koliko vam je bitno "+x+" \n")));
     print(vaznost)
